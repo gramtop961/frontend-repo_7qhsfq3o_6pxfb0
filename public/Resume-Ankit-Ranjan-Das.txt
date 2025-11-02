@@ -1,0 +1,26 @@
+Ankit Ranjan Das
+Full-Stack Developer • AI Enthusiast
+
+Portfolio: https://ankit.dev (replace with actual)
+Email: ankitdas3758@gmail.com
+LinkedIn: https://www.linkedin.com/in/ankit-ranjan-das-03a54a251/
+GitHub: https://github.com/CypherXXXX
+
+Summary
+- Building intelligent, scalable, and efficient web applications.
+- Skilled in Python, C++, JavaScript, SQL, and HTML/CSS. React, Node.js, Express.js, Flask, Supabase, Firebase, TailwindCSS.
+- Comfortable with Scikit‑learn, Pandas, NumPy, Matplotlib, JWT, and modern tooling.
+
+Education
+- B.Tech in Computer Science and Engineering — VIT Bhopal (2022–2026)
+
+Experience/Projects
+- Edcare: Virtual Healthcare Platform — ML-powered cancer prediction
+- Fire TV Recommendation App — Collaborative filtering recommender
+- Quizmaster — Real-time quizzes with scoring and analytics
+- University Management System — Secure workflows with JWT
+
+Skills
+- Full-stack development, Systems design, Applied ML, Product engineering
+
+This plain-text resume is provided for quick download. For a full PDF, please contact via email.

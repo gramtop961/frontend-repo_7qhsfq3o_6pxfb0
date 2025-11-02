@@ -12,18 +12,18 @@ const socials = [
 export default function Hero() {
   return (
     <section id="home" className="relative min-h-screen w-full overflow-hidden bg-[#0a0f1c] text-white">
-      {/* Spline cover background */}
+      {/* Subtle Spline background (dark, professional) */}
       <div className="absolute inset-0 z-0">
         <Spline
-          scene="https://prod.spline.design/zhZFnwyOYLgqlLWk/scene.splinecode"
+          scene="https://prod.spline.design/FduaNp3csZktbOi3/scene.splinecode"
           style={{ width: '100%', height: '100%' }}
         />
       </div>
 
       {/* Soft gradient glows (non-interactive) */}
       <div className="pointer-events-none absolute inset-0">
-        <div className="absolute -top-24 left-1/2 h-96 w-96 -translate-x-1/2 rounded-full bg-gradient-to-br from-cyan-500/20 to-blue-600/10 blur-3xl" />
-        <div className="absolute bottom-[-10%] right-10 h-80 w-80 rounded-full bg-gradient-to-tr from-blue-500/20 to-cyan-400/10 blur-2xl" />
+        <div className="absolute -top-24 left-1/2 h-96 w-96 -translate-x-1/2 rounded-full bg-gradient-to-br from-cyan-500/10 to-blue-600/10 blur-3xl" />
+        <div className="absolute bottom-[-10%] right-10 h-80 w-80 rounded-full bg-gradient-to-tr from-blue-500/10 to-cyan-400/10 blur-2xl" />
       </div>
 
       {/* Content */}
@@ -32,7 +32,7 @@ export default function Hero() {
           initial={{ opacity: 0, y: -10 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.1 }}
-          className="mb-5 rounded-full border border-white/10 bg-white/5 px-4 py-1 text-xs tracking-wide text-cyan-300/90 backdrop-blur"
+          className="mb-5 rounded-full border border-white/10 bg-white/5 px-3 py-1 text-[11px] tracking-wide text-cyan-300/90 backdrop-blur sm:px-4 sm:text-xs"
         >
           Full-Stack Developer • AI Enthusiast
         </motion.span>
@@ -41,7 +41,7 @@ export default function Hero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7, delay: 0.2 }}
-          className="text-center text-4xl font-semibold leading-tight sm:text-5xl md:text-6xl"
+          className="text-center text-[28px] font-semibold leading-tight sm:text-4xl md:text-5xl"
         >
           <span className="bg-gradient-to-r from-cyan-300 via-blue-400 to-cyan-300 bg-clip-text text-transparent">
             Ankit Ranjan Das
@@ -52,7 +52,7 @@ export default function Hero() {
           initial={{ opacity: 0, y: 10 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7, delay: 0.35 }}
-          className="mt-4 max-w-2xl text-center text-base text-white/80 md:text-lg"
+          className="mt-3 max-w-xl text-center text-[13px] text-white/80 sm:mt-4 sm:text-base md:max-w-2xl"
         >
           Building intelligent, scalable, and efficient web applications.
         </motion.p>
@@ -61,7 +61,7 @@ export default function Hero() {
           initial={{ opacity: 0, y: 10 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7, delay: 0.45 }}
-          className="mt-5 max-w-3xl text-center text-sm text-white/70 md:text-base"
+          className="mt-4 max-w-2xl text-center text-[12px] text-white/70 sm:text-sm md:text-base"
         >
           Skilled in Python, C++, JavaScript, SQL, and HTML/CSS. Experienced with React, Node.js, Express.js, Flask,
           Supabase, Firebase, and TailwindCSS. Comfortable with Scikit‑learn, Pandas, NumPy, Matplotlib, JWT, and modern tooling.
@@ -71,7 +71,7 @@ export default function Hero() {
           initial={{ opacity: 0, y: 10 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7, delay: 0.55 }}
-          className="mt-8 flex items-center gap-4"
+          className="mt-7 flex items-center gap-3 sm:mt-8 sm:gap-4"
         >
           {socials.map(({ icon: Icon, href }) => (
             <a
@@ -79,10 +79,10 @@ export default function Hero() {
               href={href}
               target="_blank"
               rel="noreferrer"
-              className="group rounded-full border border-white/10 bg-white/5 p-3 text-white/80 transition hover:bg-white/10 hover:text-white"
+              className="group rounded-full border border-white/10 bg-white/5 p-2.5 text-white/80 transition hover:bg-white/10 hover:text-white sm:p-3"
               aria-label={href}
             >
-              <Icon className="h-5 w-5 transition group-hover:scale-110" />
+              <Icon className="h-4 w-4 transition group-hover:scale-110 sm:h-5 sm:w-5" />
             </a>
           ))}
         </motion.div>
@@ -91,7 +91,7 @@ export default function Hero() {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 1.1, duration: 0.8 }}
-          className="mt-12 hidden sm:block"
+          className="mt-10 hidden sm:block"
         >
           <a href="#skills" className="group inline-flex items-center gap-2 text-sm text-white/70 hover:text-white">
             <span>Explore my work</span>
