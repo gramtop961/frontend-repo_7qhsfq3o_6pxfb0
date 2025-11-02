@@ -69,7 +69,7 @@ export default function Skills() {
             transition={{ duration: 0.8, delay: 0.1 }}
             className="mx-auto mt-3 max-w-3xl text-white/70"
           >
-            A blend of product-focused engineering and applied AI — with a strong background in algorithms and data.
+            A balanced foundation in product engineering and applied AI — structured, readable, and robust.
           </motion.p>
         </div>
 
